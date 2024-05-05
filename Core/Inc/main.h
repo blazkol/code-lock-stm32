@@ -75,8 +75,18 @@ void Error_Handler(void);
 #define LCD_D5_GPIO_Port GPIOA
 #define LD2_Pin GPIO_PIN_5
 #define LD2_GPIO_Port GPIOA
+#define KP_C4_Pin GPIO_PIN_7
+#define KP_C4_GPIO_Port GPIOA
 #define LCD_D4_Pin GPIO_PIN_0
 #define LCD_D4_GPIO_Port GPIOB
+#define KP_R3_Pin GPIO_PIN_10
+#define KP_R3_GPIO_Port GPIOB
+#define KP_C2_Pin GPIO_PIN_7
+#define KP_C2_GPIO_Port GPIOC
+#define KP_R4_Pin GPIO_PIN_8
+#define KP_R4_GPIO_Port GPIOA
+#define KP_C1_Pin GPIO_PIN_9
+#define KP_C1_GPIO_Port GPIOA
 #define LCD_RS_Pin GPIO_PIN_10
 #define LCD_RS_GPIO_Port GPIOA
 #define TMS_Pin GPIO_PIN_13
@@ -85,6 +95,12 @@ void Error_Handler(void);
 #define TCK_GPIO_Port GPIOA
 #define LCD_EN_Pin GPIO_PIN_3
 #define LCD_EN_GPIO_Port GPIOB
+#define KP_R2_Pin GPIO_PIN_4
+#define KP_R2_GPIO_Port GPIOB
+#define KP_R1_Pin GPIO_PIN_5
+#define KP_R1_GPIO_Port GPIOB
+#define KP_C3_Pin GPIO_PIN_6
+#define KP_C3_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
